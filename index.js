@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require("mongoose");
-const Expense = require("./models/expense");
+const Expense = require("./expense");
 const { options } = require('nodemon/lib/config');
 const app = express()
 const port = process.env.PORT || 3000
